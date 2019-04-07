@@ -1,0 +1,158 @@
+* {
+  margin: auto;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  max-width: 31em;
+  margin: 0 auto;
+}
+
+.links {
+  /* padding: 0 20px;  */
+  width: 100%;
+  /* border: 1px solid black;   */
+}
+
+.linktd {
+  text-align: center; 
+  width: 50%;
+  padding-bottom: 1em; 
+  /* border: 1px solid black;   */
+}
+
+.main-container {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+/*.header {
+  text-align: left;
+}*/
+
+.img-circle {
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  color: #202020;
+  margin-top: 0.3em;
+}
+
+.subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  color: #505050;
+}
+
+.intro-description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.90em;
+  padding-bottom: 1.5em;
+  color: #303030;
+  font-style: italic;
+}
+
+.description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  padding-bottom: 1.5em;
+  color: #303030;
+}
+
+.description em {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.horizontal-line {
+  margin-top: 0.9em;
+  margin-bottom: 1.4em;
+  width: 60%;
+  /*color: #404040;*/
+  border-style: groove;
+}
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: #202020;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.3em 0.4em 0.2em 0.4em;
+}
+
+a:link {
+  /*text-decoration: none;*/
+}
+
+a:visited {
+  /*text-decoration: none;*/
+}
+
+a:hover {
+  background-color: #202020;
+  color: white;
+}
+
+a:active {
+  background-color: #303030;
+  color: white;
+}
+
+.vl {
+  border-left: 0.2em solid darkgray;
+  height: 3em;
+}
+
+.portfolio .entry {
+  padding: 0.5em;
+  border-left: 0.2em solid darkorange;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+.portfolio .entry .title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.portfolio .entry .caption {
+  font-size: 0.7em;
+  /* font-weight: bold; */
+  /* font-style: italic; */
+}
+
+.portfolio .entry .date {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: right;
+  padding-bottom: 0.5em;
+}
+
+.portfolio .entry .icon {
+  height: 5em;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio .entry a {
+  color: darkorange;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+.portfolio .entry .body {
+  text-align: justify;
+}
+
+.portfolio .entry a:hover {
+  color: white;
+}
